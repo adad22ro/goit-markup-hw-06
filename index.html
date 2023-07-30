@@ -363,6 +363,22 @@
             </li>
           </ul>
         </div>
+
+        <div class="form">
+          <h3>Subscribe to the newsletter</h3>
+          <form class="footer-form">
+            <label class="footer-email-form">
+              <input type="email" name="email" placeholder="E-mail" />
+            </label>
+
+            <button type="submit" class="footer-form-btn">
+              <p>Subscribe</p>
+              <svg width="24px" height="24px">
+                <use href="./images/icons.svg#icon-sed"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </footer>
     </main>
 
@@ -371,7 +387,64 @@
     <div class="modal is-hidden" data-modal>
       <div class="modal-content">
         <button class="close-btn" data-modal-close>&times;</button>
-        continut test
+        <div class="modal-form-content">
+          <h2>Leave your information and we'll call you back</h2>
+          <form class="modal-form">
+            <div class="name-form imput-field">
+              <span>Name</span>
+              <div>
+                <lable class="input-section">
+                  <svg width="18px" height="18px" class="form-icons">
+                    <use href="./images/icons.svg#icon-name-field"></use>
+                  </svg>
+                  <input type="text" name="name" />
+                </lable>
+              </div>
+            </div>
+            <div class="tel-form imput-field">
+              <span>Telephone</span>
+              <div>
+                <lable class="input-section">
+                  <svg width="18px" height="18px" class="form-icons">
+                    <use href="./images/icons.svg#icon-tel-field"></use></svg
+                  ><input type="tel" name="telephon"
+                /></lable>
+              </div>
+            </div>
+            <div class="email-form imput-field">
+              <span>E-mail</span>
+              <div>
+                <lable class="input-section">
+                  <svg width="18px" height="18px" class="form-icons">
+                    <use href="./images/icons.svg#icon-email-field"></use>
+                  </svg>
+                  <input type="email" name="email" />
+                </lable>
+              </div>
+            </div>
+            <div class="comments-form">
+              <span>Comments</span>
+              <div>
+                <lable>
+                  <textarea name="comments"></textarea>
+                </lable>
+              </div>
+            </div>
+            <div class="terms-and-conds">
+              <label>
+                <svg width="16px" height="16px" class="form-icons">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+                <input type="checkbox" class="checkmark" name="agreement" />
+                <span class="agreement-check">
+                  I agree with the letter and accept the
+                  <a href="">Terms and Conditions</a>
+                </span>
+              </label>
+            </div>
+            <button type="submit" class="send-btn">Send</button>
+          </form>
+        </div>
       </div>
     </div>
 

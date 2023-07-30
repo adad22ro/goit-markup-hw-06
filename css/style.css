@@ -286,7 +286,8 @@ ul {
   flex-shrink: 0;
   border-radius: 4px;
   margin-top: 30px;
-  border-color: #2196f3;
+  border: none;
+  color: #fff;
 }
 
 .hero-heading {
@@ -508,6 +509,64 @@ a.footer-mail {
   transition: color var(--transition);
 }
 
+/* footer form */
+
+.form {
+  margin-left: 93px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form h3 {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.footer-form {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-email-form input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  color: #fff;
+}
+
+.footer-form-btn {
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-form-btn p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+
 .team-member-name {
   color: #212121;
   text-align: center;
@@ -606,6 +665,9 @@ a.footer-mail {
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .is-hidden {
@@ -627,4 +689,83 @@ a.footer-mail {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.modal-form-content h2 {
+  color: #212121;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-form span {
+  color: #757575;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.modal-form .imput-field input {
+  width: 448px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  height: 40px;
+}
+
+.modal-form textarea {
+  width: 448px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.send-btn {
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+
+.input-section {
+  position: relative;
+}
+
+.input-section input {
+  padding: 0 35px;
+}
+
+.form-icons {
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}
+
+.comments-form textarea {
+  padding: 5px 5px;
+}
+
+.modal-form-content h2 {
+  margin-bottom: 12px;
+}
+
+.terms-and-conds .agreement-check {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
 }

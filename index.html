@@ -386,7 +386,7 @@
 
     <div class="modal is-hidden" data-modal>
       <div class="modal-content">
-        <button class="close-btn" data-modal-close>&times;</button>
+        <button class="close-btn" data-modal-close><span>&times;</span></button>
         <div class="modal-form-content">
           <h2>Leave your information and we'll call you back</h2>
           <form class="modal-form">
@@ -405,20 +405,20 @@
               <span>Telephone</span>
               <div>
                 <lable class="input-section">
+                  <input type="tel" name="telephon" />
                   <svg width="18px" height="18px" class="form-icons">
                     <use href="./images/icons.svg#icon-tel-field"></use></svg
-                  ><input type="tel" name="telephon"
-                /></lable>
+                ></lable>
               </div>
             </div>
             <div class="email-form imput-field">
               <span>E-mail</span>
               <div>
                 <lable class="input-section">
+                  <input type="email" name="email" />
                   <svg width="18px" height="18px" class="form-icons">
                     <use href="./images/icons.svg#icon-email-field"></use>
                   </svg>
-                  <input type="email" name="email" />
                 </lable>
               </div>
             </div>
@@ -434,11 +434,11 @@
               </div>
             </div>
             <div class="terms-and-conds">
-              <label>
-                <svg width="16px" height="16px" class="form-icons">
-                  <use href="./images/icons.svg#icon-checkbox"></use>
-                </svg>
+              <label class="terms-and-conds-lbl">
                 <input type="checkbox" class="checkmark" name="agreement" />
+                <svg width="16px" height="16px" class="check-box">
+                  <use href="./images/icons.svg#checkbox"></use>
+                </svg>
                 <span class="agreement-check">
                   I agree with the letter and accept the
                   <a href="">Terms and Conditions</a>

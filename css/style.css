@@ -822,6 +822,11 @@ input[type="email"]:focus,
   justify-content: center;
 }
 
+.agreement-check a {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
 .terms-and-conds-lbl .checkmark {
   appearance: none;
 }
